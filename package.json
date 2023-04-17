@@ -1,0 +1,24 @@
+{
+  "name": "ci-nodejs",
+  "version": "1.0.0",
+  "description": "teste",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardovergutz/ci-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricardovergutz/ci-nodejs/issues"
+  },
+  "homepage": "https://github.com/ricardovergutz/ci-nodejs#readme",
+  "dependencies": {
+    "@types/jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "sonar-scanner": "^3.1.0"
+  }
+}
